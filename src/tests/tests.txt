@@ -1,0 +1,13 @@
+tabInitialCard()- checks if tableau piles initially hold 1 card
+tabDetermineAddLegal()- checks if tableau piles correctly determine if adding a card is legal
+tabDetermineRemoveLegal()- checks if tableau piles correctly determine if removing a card is legal
+addTabIncreaseCards() - checks if adding a card to a tableau pile increases the number of cards in the pile and make the new card the top card
+removeTabDecreaseCards()- checks if removing a card from a tableau pile decreases the number of cards in the pile and makes the card below it the top card
+emptyHome()- checks if homecell pile is empty at the beginning of the game
+addToHomecell()- checks if adding to homecell is legal
+removeFromHomecell()- checks if removing from homecell is legal
+addHomecellIncreaseCards()- checks if adding to homecell increases the size of the homecell pile and makes that card the top card
+stockInitialCards()- checks the initial amount of cards in the stock pile
+stockDetermineAddLegal()- determines if adding to stock is legal
+stockDetermineRemoveLegal()- determines if removing from stock is legal
+testDealDeck()- tests if clicking the stock pile deals those cards into the tableau piles
